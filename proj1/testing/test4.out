@@ -1,0 +1,17 @@
+DB61B System.  Version 3.0
+Loaded students.db
+Loaded dorm.db
+Contents of dorm2:
+  A 201 101
+  A 202 102
+  A 201 103
+  A 203 104
+  B 201 105
+  B 201 106
+Search results:
+  101
+  102
+  103
+  104
+  105
+  106

@@ -1,0 +1,2 @@
+The commandline should be of format:
+java loa.Main [--debug=LEVEL] [--display]

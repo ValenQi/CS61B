@@ -1,0 +1,25 @@
+# Check the basic init, add, commit and log.
+> init
+<<<
+E .gitlet
++ wug.txt wug.txt
+> add wug.txt
+<<<
+> commit "wug.txt"
+<<<
+# Each ${HEADER} captures its commit UID.
+D UID "[a-f0-9]+"
+D HEADER "Commit (${UID})"
+D DATE "\d\d\d\d-\d\d-\d\d\s+\d\d:\d\d:\d\d"
+> log
+===
+${HEADER}
+${DATE}
+wug.txt
+
+===
+${HEADER}
+${DATE}
+initial commit
+
+<<<*

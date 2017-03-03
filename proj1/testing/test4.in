@@ -1,0 +1,8 @@
+load students;
+load dorm;
+create table dorm2 as select Building, Room, SID as Resident
+     from dorm, students where dorm.Lastname = students.Lastname
+     and dorm.Firstname = students.Firstname;
+print dorm2;
+select Resident from dorm2;
+exit;

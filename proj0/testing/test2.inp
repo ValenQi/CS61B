@@ -1,0 +1,117 @@
+18
+            AS --- --- ---
+
+  AC        8S  3S  6D  QC
+ ### ---  
+> rf
+            AS  AC --- ---
+
+  2D        8S  3S  6D  QC
+ ### ---  
+> rt 2
+            AS  AC --- ---
+
+  KH        8S  3S  6D  QC
+ ### ---   ---  2D --- ---
+> c
+            AS  AC --- ---
+
+  KH        8S  3S  6D  QC
+ ###  3C   ---  2D --- ---
+> c
+            AS  AC --- ---
+
+  KH        8S  3S  6D  QC
+ ###  9C   ---  2D --- ---
+> c
+            AS  AC --- ---
+
+  KH        8S  3S  6D  QC
+ ###  4H   ---  2D --- ---
+> c
+            AS  AC --- ---
+
+  KH        8S  3S  6D  QC
+ ###  7S   ---  2D --- ---
+> c
+            AS  AC --- ---
+
+  KH        8S  3S  6D  QC
+ ###  QH   ---  2D --- ---
+> c
+            AS  AC --- ---
+
+  KH        8S  3S  6D  QC
+ ###  KD   ---  2D --- ---
+> c
+            AS  AC --- ---
+
+  KH        8S  3S  6D  QC
+ ###  4S   ---  2D --- ---
+> c
+            AS  AC --- ---
+
+  KH        8S  3S  6D  QC
+ ###  8H   ---  2D --- ---
+> c
+            AS  AC --- ---
+
+  KH        8S  3S  6D  QC
+ ###  5D   ---  2D --- ---
+> c
+            AS  AC --- ---
+
+  KH        8S  3S  6D  QC
+ ###  AD   ---  2D --- ---
+> wf
+            AS  AC  AD ---
+
+  KH        8S  3S  6D  QC
+ ###  QS   ---  2D --- ---
+> u
+            AS  AC --- ---
+
+  KH        8S  3S  6D  QC
+ ###  AD   ---  2D --- ---
+> wf
+            AS  AC  AD ---
+
+  KH        8S  3S  6D  QC
+ ###  QS   ---  2D --- ---
+> tf 2
+            AS  AC  2D ---
+
+  KH        8S  3S  6D  QC
+ ###  QS  
+> ft 3 2
+            AS  AC  AD ---
+
+  KH        8S  3S  6D  QC
+ ###  QS   ---  2D --- ---
+> u
+            AS  AC  2D ---
+
+  KH        8S  3S  6D  QC
+ ###  QS  
+> c
+            AS  AC  2D ---
+
+  KH        8S  3S  6D  QC
+ ###  2S  
+> wf
+            2S  AC  2D ---
+
+  KH        8S  3S  6D  QC
+ ###  7C  
+> c
+            2S  AC  2D ---
+
+  KH        8S  3S  6D  QC
+ ---  6C  
+> c
+            2S  AC  2D ---
+
+  KH        8S  3S  6D  QC
+ ### ---  
+> q
+Another game? [yn] n

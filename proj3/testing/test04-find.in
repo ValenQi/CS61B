@@ -1,0 +1,47 @@
+# Check find.
+> init
+<<<
++ 1.txt wug.txt
+> add 1.txt
+<<<
+> commit "1.txt"
+<<<
++ 1.txt notwug.txt
+> add 1.txt
+<<<
+> commit "1.txt"
+<<<
+# Each ${HEADER} captures its commit UID.
+D UID "[a-f0-9]+"
+D HEADER "Commit (${UID})"
+D DATE "\d\d\d\d-\d\d-\d\d\s+\d\d:\d\d:\d\d"
+> log
+===
+${HEADER}
+${DATE}
+1.txt
+
+===
+${HEADER}
+${DATE}
+1.txt
+
+===
+${HEADER}
+${DATE}
+initial commit
+
+<<<*
+# UID of latest version
+D UID2 "${1}"
+# UID of original version
+D UID1 "${2}"
+#UID of the initial commit
+D UID0 "${3}"
+> find "1.txt"
+(${UID1}\n${UID2}|${UID2}\n${UID1})
+<<<*
+> find "initial commit"
+${UID0}
+<<< find "2.txt"
+Found no commit with that message.

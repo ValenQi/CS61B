@@ -1,0 +1,94 @@
+# Check the details of add and remove.
+> init
+<<<
++ 1.txt wug.txt
+> add 1.txt
+<<<
+> commit "wug.txt"
+<<<
++ 2.txt notwug.txt
+> add 2.txt
+<<<
+> status
+=== Branches ===
+*master
+
+=== Staged Files ===
+2.txt
+
+=== Removed Files ===
+
+=== Modifications Not Staged For Commit ===
+
+=== Untracked Files ===
+
+<<<
+> rm 2.txt
+<<<
+> status
+=== Branches ===
+*master
+
+=== Staged Files ===
+
+=== Removed Files ===
+
+=== Modifications Not Staged For Commit ===
+
+=== Untracked Files ===
+2.txt
+
+<<<
+> rm 1.txt
+<<<
+* 1.txt
+> status
+=== Branches ===
+*master
+
+=== Staged Files ===
+
+=== Removed Files ===
+1.txt
+
+=== Modifications Not Staged For Commit ===
+
+=== Untracked Files ===
+2.txt
+
+<<<
++ 1.txt wug.txt
+> add 1.txt
+<<<
+> status
+=== Branches ===
+*master
+
+=== Staged Files ===
+
+=== Removed Files ===
+
+=== Modifications Not Staged For Commit ===
+
+=== Untracked Files ===
+2.txt
+
+<<<
+- 1.txt
+> rm 1.txt
+<<<
+> status
+=== Branches ===
+*master
+
+=== Staged Files ===
+
+=== Removed Files ===
+1.txt
+
+=== Modifications Not Staged For Commit ===
+
+=== Untracked Files ===
+2.txt
+
+<<<*

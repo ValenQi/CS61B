@@ -1,0 +1,18 @@
+DB61B System.  Version 3.0
+Loaded students.db
+Contents of dorm:
+  A 201 Knowles Jason
+  A 202 Chan Valerie
+  A 201 Xavier Jonathan
+  A 203 Armstrong Thomas
+  B 201 Brown Shana
+  B 201 Chan Yangfan
+Stored dorm.db
+Error: unrecognizable command
+Error: unknown table: dorms
+Error: unexpected token: ';'
+Error: unknown column: SID
+Error: SID is not a column in dorm
+Error: Invalid relation input: !
+Error: could not find a.db
+Error: repeated column titles: cs61b
